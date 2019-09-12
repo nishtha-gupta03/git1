@@ -25,7 +25,7 @@ Public Class Mail1
             Dim htmlContent = "Content"
             Dim msg = MailHelper.CreateSingleEmail(from, sto, subject, plainTextContent, htmlContent)
             response = Await client.SendEmailAsync(msg)
-            HELLO HOW ARE YOU?
+            
         Catch ex As Exception
             Throw ex
         End Try
